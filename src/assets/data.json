@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2023-11-15",
+    "weight": 114.7,
+    "skeletalMuscleMass": 43.9,
+    "bodyFatPercent": 29.1,
+    "bodyWaterRatio": 0.376
+  },
+  {
+    "date": "2025-01-08",
+    "weight": 114.1,
+    "skeletalMuscleMass": 41.7,
+    "bodyFatPercent": 31.8,
+    "bodyWaterRatio": 0.378
+  },
+  {
+    "date": "2025-03-04",
+    "weight": 117.4,
+    "skeletalMuscleMass": 44.3,
+    "bodyFatPercent": 30.2,
+    "bodyWaterRatio": 0.377
+  },
+  {
+    "date": "2025-03-31",
+    "weight": 118.7,
+    "skeletalMuscleMass": 44.5,
+    "bodyFatPercent": 30.7,
+    "bodyWaterRatio": 0.375
+  },
+  {
+    "date": "2025-05-01",
+    "weight": 118.1,
+    "skeletalMuscleMass": 46.1,
+    "bodyFatPercent": 28.3,
+    "bodyWaterRatio": 0.376
+  },
+  {
+    "date": "2025-06-05",
+    "weight": 116.5,
+    "skeletalMuscleMass": 46.5,
+    "bodyFatPercent": 26.6,
+    "bodyWaterRatio": 0.375
+  }
+]
