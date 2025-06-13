@@ -5,3 +5,9 @@ export interface BodyMeasurement {
   bodyFatPercent: number
   bodyWaterRatio: number
 }
+
+export interface TotalMuscleFatLbs {
+  dateRange: string
+  muscle: number
+  fat: number
+}
