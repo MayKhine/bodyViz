@@ -1,7 +1,6 @@
 import { getAQuote, getTotalMuscleFatLbs } from "../helpers/HelperFunc"
 import type { BodyMeasurement } from "../types/bodyMeasurementTypes"
 import { BarChartDiv } from "./DataCharts/BarChart"
-// import { LineChartGraph } from "./DataCharts/LineChart"
 type DashboardProps = {
   data: Array<BodyMeasurement>
 }
@@ -9,8 +8,8 @@ type DashboardProps = {
 export const Dashboard = ({ data }: DashboardProps) => {
   console.log("Data: ", data)
   // const lineGraphDataLine = ["weight", "skeletalMuscleMass", "bodyFatPercent"]
-  const TotalMuscleFatLbs = getTotalMuscleFatLbs(data)
-  console.log("TEST Data : ", TotalMuscleFatLbs)
+  const totalMuscleFatLbsData = getTotalMuscleFatLbs(data)
+  // const totalMusclePartsData = getTotalMuscleLbs(data)
   return (
     <div className="self-center grow flex flex-col bg-amber-300 box-border w-full max-w-7xl h-full border-2 rounded p-5">
       <div className="bg-pink-200 box-border flex-col flex-none">
@@ -22,16 +21,16 @@ export const Dashboard = ({ data }: DashboardProps) => {
         </div>
         <div> {getAQuote()}</div>
       </div>
-      <div className="bg-green-200 h-full grow flex flex-col">
+      <div className="bg-green-200 h-auto grow flex flex-col">
         <div className="flex w-full bg-pink-300 flex-wrap md:flex-nowrap">
           <div className="bg-amber-200 w-full md:w-2/4 min-h-50">
             Another big bar graph
           </div>
-          <div className="bg-yellow-300 w-full md:w-1/4 min-h-50">
-            Another graph
+          <div className="bg-yellow-300 w-full md:w-1/4 min-h-50 md:h-80 p-10">
+            {/* <BarChartDiv data={totalMusclePartsData} /> */}
           </div>
-          <div className="bg-yellow-100 w-full md:w-1/4 min-h-50 md:h-80 p-10">
-            <BarChartDiv data={TotalMuscleFatLbs} />
+          <div className="bg-yellow-100 w-full md:w-1/4 min-h-50 md:h-80 p-10 ">
+            <BarChartDiv data={totalMuscleFatLbsData} />
           </div>
         </div>
         <div className="bg-pink-200 grow"> Another big div</div>

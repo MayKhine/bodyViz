@@ -1,44 +1,77 @@
 [
   {
-    "date": "2023-11-15",
-    "weight": 114.7,
-    "skeletalMuscleMass": 43.9,
-    "bodyFatPercent": 29.1,
-    "bodyWaterRatio": 0.376
-  },
-  {
     "date": "2025-01-08",
     "weight": 114.1,
     "skeletalMuscleMass": 41.7,
+    "bodyFatMass": 36.4,
     "bodyFatPercent": 31.8,
-    "bodyWaterRatio": 0.378
+    "bodyWaterRatio": 0.378,
+    "BMI": 20.9,
+    "rightArm": 3.4,
+    "leftArm": 3.48,
+    "trunk": 34.7,
+    "rightLeg": 11.71,
+    "leftLeg": 11.71,
+    "metabolicRate": 1133
   },
   {
     "date": "2025-03-04",
     "weight": 117.4,
     "skeletalMuscleMass": 44.3,
+    "bodyFatMass": 35.5,
     "bodyFatPercent": 30.2,
-    "bodyWaterRatio": 0.377
+    "bodyWaterRatio": 0.377,
+    "BMI": 21.5,
+    "rightArm": 3.73,
+    "leftArm": 3.75,
+    "trunk": 36.5,
+    "rightLeg": 12.39,
+    "leftLeg": 12.41,
+    "metabolicRate": 1173
   },
   {
     "date": "2025-03-31",
     "weight": 118.7,
     "skeletalMuscleMass": 44.5,
+    "bodyFatMass": 36.4,
     "bodyFatPercent": 30.7,
-    "bodyWaterRatio": 0.375
+    "bodyWaterRatio": 0.375,
+    "BMI": 21.7,
+    "rightArm": 3.77,
+    "leftArm": 3.79,
+    "trunk": 36.7,
+    "rightLeg": 12.06,
+    "leftLeg": 12.17,
+    "metabolicRate": 1176
   },
   {
     "date": "2025-05-01",
     "weight": 118.1,
     "skeletalMuscleMass": 46.1,
+    "bodyFatMass": 33.5,
     "bodyFatPercent": 28.3,
-    "bodyWaterRatio": 0.376
+    "bodyWaterRatio": 0.376,
+    "BMI": 21.6,
+    "rightArm": 3.92,
+    "leftArm": 4.01,
+    "trunk": 37.7,
+    "rightLeg": 12.65,
+    "leftLeg": 12.93,
+    "metabolicRate": 1199
   },
   {
     "date": "2025-06-05",
     "weight": 116.5,
     "skeletalMuscleMass": 46.5,
+    "bodyFatMass": 30.9,
     "bodyFatPercent": 26.6,
-    "bodyWaterRatio": 0.375
+    "bodyWaterRatio": 0.375,
+    "BMI": 21.3,
+    "rightArm": 3.99,
+    "leftArm": 4.1,
+    "trunk": 38.2,
+    "rightLeg": 12.65,
+    "leftLeg": 12.79,
+    "metabolicRate": 1208
   }
 ]

@@ -2,27 +2,20 @@ import {
   Bar,
   BarChart,
   Label,
-  Legend,
   ReferenceLine,
   ResponsiveContainer,
   Tooltip,
   XAxis,
+  YAxis,
 } from "recharts"
-import type { TotalMuscleFatLbs } from "../../types/bodyMeasurementTypes"
+import type { BarchartDataType } from "../../types/bodyMeasurementTypes"
 
 type BarChartDivProps = {
-  data: Array<TotalMuscleFatLbs>
+  data: Array<BarchartDataType>
 }
-export const BarChartDiv = ({ data }: BarChartDivProps) => {
-  // const data = [
-  //   {
-  //     dateRange: "From jan 1 to Jun 1",
-  //     muscle: 10,
-  //     fatLoss: -5,
-  //     amt: 2181,
-  //   },
-  // ]
 
+export const BarChartDiv = ({ data }: BarChartDivProps) => {
+  console.log("bar char data: ", data)
   return (
     <div className="bg-white w-full h-full">
       <ResponsiveContainer width="100%" height="100%">
@@ -35,14 +28,11 @@ export const BarChartDiv = ({ data }: BarChartDivProps) => {
             bottom: 0,
           }}
         >
-          <XAxis dataKey="dateRange" tick={false}>
-            <Label value="tes" offset={0} position="insideBottom" />
-          </XAxis>
+          <XAxis dataKey="colName" tick={true} />
+          <YAxis />
           <Tooltip />
-          <Legend />
           <ReferenceLine y={0} stroke="#000" />
-          <Bar dataKey="muscle" fill="#8884d8" />
-          <Bar dataKey="fat" fill="#82ca9d" />
+          <Bar dataKey="value" fill="#8884d8" />
         </BarChart>
       </ResponsiveContainer>
     </div>
